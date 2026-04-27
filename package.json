@@ -1,0 +1,14 @@
+{
+  "name": "anubhab-shop",
+  "version": "1.0.0",
+  "description": "Château Barkalot — medieval dog café website",
+  "scripts": {
+    "dev": "npx wrangler dev --port 8080",
+    "deploy": "npx wrangler deploy",
+    "preview": "npx wrangler dev --local --port 8080"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "wrangler": "^3.0.0"
+  }
+}
